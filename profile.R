@@ -29,12 +29,12 @@ B <- matrix(rnorm(1e4), 1000, 1000)
 system.time(slow_matrix_multiply(A, B))
 
 # Vectorized approach for matrix multiplication
-fast_matrix_multiply <- function(A, B) {
-  return(sum(A %*% B))
-}
-
-# Profile and time the vectorized approach
-system.time(fast_matrix_multiply(A, B))
+# fast_matrix_multiply <- function(A, B) {
+#   return(sum(A %*% B))
+# }
+# 
+# # Profile and time the vectorized approach
+# system.time(fast_matrix_multiply(A, B))
 
 
 Rprof(NULL)
