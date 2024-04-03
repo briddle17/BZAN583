@@ -5,10 +5,7 @@ Currently Loaded Modules:
 
  
 
-Error: object 'A' not found
-Timing stopped at: 0 0.001 0.001
-Execution halted
 
-real	0m0.264s
-user	0m0.139s
-sys	0m0.073s
+real	0m0.326s
+user	0m0.194s
+sys	0m0.077s

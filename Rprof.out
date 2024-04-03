@@ -1,2 +1,5 @@
 sample.interval=20000
-"fast_matrix_multiply" "system.time" 
+"gc" "system.time" 
+"%*%" "fast_matrix_multiply" "system.time" 
+"%*%" "fast_matrix_multiply" "system.time" 
+"print.default" "print" "print.proc_time" "<Anonymous>" 
