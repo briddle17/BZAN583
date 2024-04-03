@@ -1,0 +1,39 @@
+Fast Version
+/u/briddle/BZAN583
+loaded R
+   user  system elapsed 
+  0.058   0.000   0.058 
+$by.self
+                self.time self.pct total.time total.pct
+"%*%"                0.04       50       0.04        50
+"gc"                 0.02       25       0.02        25
+"print.default"      0.02       25       0.02        25
+
+$by.total
+                       total.time total.pct self.time self.pct
+"system.time"                0.06        75      0.00        0
+"%*%"                        0.04        50      0.04       50
+"fast_matrix_multiply"       0.04        50      0.00        0
+"gc"                         0.02        25      0.02       25
+"print.default"              0.02        25      0.02       25
+"<Anonymous>"                0.02        25      0.00        0
+"print"                      0.02        25      0.00        0
+"print.proc_time"            0.02        25      0.00        0
+
+$sample.interval
+[1] 0.02
+
+$sampling.time
+[1] 0.08
+
+
+Currently Loaded Modules:
+  1) gcc/11.4.0      3) cuda/11.8.0         5) slurm-env/0.1   7) r/4.3.2
+  2) openmpi/4.1.6   4) cue-login-env/1.0   6) default-s11
+
+ 
+
+
+real	0m0.326s
+user	0m0.194s
+sys	0m0.077s
