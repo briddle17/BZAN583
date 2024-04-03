@@ -8,7 +8,7 @@
 #SBATCH -e ./utk.e
 #SBATCH -o ./utk.o
 
-cd ~/BZAN_583
+cd ~/BZAN583
 pwd
 
 ## module names can vary on different platforms
