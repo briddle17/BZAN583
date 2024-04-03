@@ -1,0 +1,51 @@
+Slow Version
+   /u/briddle/BZAN583
+loaded R
+   user  system elapsed 
+120.681   0.013 121.272 
+$by.self
+                       self.time self.pct total.time total.pct
+"slow_matrix_multiply"    120.68    99.95     120.72     99.98
+"gc"                        0.02     0.02       0.02      0.02
+"lazyLoadDBfetch"           0.02     0.02       0.02      0.02
+"sum"                       0.02     0.02       0.02      0.02
+
+$by.total
+                       total.time total.pct self.time self.pct
+"system.time"              120.74    100.00      0.00     0.00
+"slow_matrix_multiply"     120.72     99.98    120.68    99.95
+"gc"                         0.02      0.02      0.02     0.02
+"lazyLoadDBfetch"            0.02      0.02      0.02     0.02
+"sum"                        0.02      0.02      0.02     0.02
+"cmp"                        0.02      0.02      0.00     0.00
+"cmpCall"                    0.02      0.02      0.00     0.00
+"cmpCallSymFun"              0.02      0.02      0.00     0.00
+"cmpSymbolAssign"            0.02      0.02      0.00     0.00
+"cmpfun"                     0.02      0.02      0.00     0.00
+"compiler:::tryCmpfun"       0.02      0.02      0.00     0.00
+"doTryCatch"                 0.02      0.02      0.00     0.00
+"genCode"                    0.02      0.02      0.00     0.00
+"h"                          0.02      0.02      0.00     0.00
+"tryCatch"                   0.02      0.02      0.00     0.00
+"tryCatchList"               0.02      0.02      0.00     0.00
+"tryCatchOne"                0.02      0.02      0.00     0.00
+"tryInline"                  0.02      0.02      0.00     0.00
+
+$sample.interval
+[1] 0.02
+
+$sampling.time
+[1] 120.74
+
+
+
+Currently Loaded Modules:
+  1) gcc/11.4.0      3) cuda/11.8.0         5) slurm-env/0.1   7) r/4.3.2
+  2) openmpi/4.1.6   4) cue-login-env/1.0   6) default-s11
+
+ 
+
+
+real	2m2.345s
+user	2m1.528s
+sys	0m0.168s

@@ -18,10 +18,10 @@ Rprof()
 # }
 # 
 # # Generate two large matrices
-# set.seed(123)
-# A <- matrix(rnorm(1e4), 1000, 1000)
-# B <- matrix(rnorm(1e4), 1000, 1000)
-# 
+set.seed(123)
+A <- matrix(rnorm(1e4), 1000, 1000)
+B <- matrix(rnorm(1e4), 1000, 1000)
+
 # # Profile and time the non-vectorized approach
 # system.time(slow_matrix_multiply(A, B))
 
